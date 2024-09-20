@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blue">
+
+
+    <EditText
+        android:id="@+id/note1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez la note 1"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="15dp"/>
+
+
+    <EditText
+        android:id="@+id/note2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez la note 2"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/white"
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:id="@+id/note3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez la note 3"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/white"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/note4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez la note 4"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/white"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer la moyenne"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moyenne et mention s'afficheront ici : "
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="@color/white"/>
+</LinearLayout>
